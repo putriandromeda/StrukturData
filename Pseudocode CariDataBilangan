@@ -1,0 +1,21 @@
+Algoritma dengan Pseudocode:
+
+Algoritma Mencari data bilangan dalam deret bilangan
+
+Deklarasi:
+int bilangan[8] = {12,24,25,30,45,100,10,13}
+int cari,jumlah=0;
+    int indeks[8];
+    int x,y;
+
+Deskripsi:
+input cari
+for (x=0; x<10; x++)
+if bilangan(x)=cari then
+cetak “indeks(jumlah)=x;
+jumlah = jumlah + 1”
+else
+input indeks
+for (y=0; y<jumlah; y++)
+cetak indeks(y)
+end if

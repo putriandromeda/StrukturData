@@ -1,0 +1,17 @@
+Algoritma dengan Pseudocode:
+
+Algoritma Menentukan Deret Bilangan Fibonacci
+
+Deklarasi:
+a, x, fibo(a): integer
+
+Deskripsi:
+input x
+if a=1 atau a=0 then
+cetak “fibo(a)=a”
+else
+while a>1 dan a ≤ x do
+fibo(a)=fibo(a-2)+fibo(i-1)
+cetak fibo(a)
+a=a+1
+end
